@@ -119,6 +119,26 @@ h1 span{color:var(--cyan);text-shadow:0 0 30px #4de6ff35}
 }
 @media(max-width:390px){.app{padding:9px}.pill{font-size:.7rem}.slot{width:52px;height:52px}.equation{gap:6px}.tile{min-width:48px;padding:9px 11px}.hud{width:100%}.hud-box{flex:1}.results{padding:26px 14px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
+
+
+html {
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+  min-width: 0;
+}
+
+.app {
+  width: 100%;
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 </style>
 </head>
 <body>
